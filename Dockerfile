@@ -1,5 +1,8 @@
 
 ARG VERSION=mcr.microsoft.com/dotnet/aspnet:6.0
+
+ARG VERSION2=mcr.microsoft.com/dotnet/sdk:6.0
+
 FROM $VERSION AS base
 WORKDIR /app
 
@@ -8,8 +11,7 @@ EXPOSE $EXPPOSE
 
 ENV ASPNETCORE_URLS=http://+:5260
 
-ARG VERSION2=mcr.microsoft.com/dotnet/sdk:6.0
-FROM $VERSION AS build
+FROM $VERSION2 AS build
 WORKDIR /src
 COPY ["app-netcore.csproj", "./"]
 RUN dotnet restore "app-netcore.csproj"
