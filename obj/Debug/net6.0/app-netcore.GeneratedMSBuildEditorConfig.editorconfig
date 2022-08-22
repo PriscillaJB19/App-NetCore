@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = app_netcore
 build_property.RootNamespace = app_netcore
-build_property.ProjectDir = c:\Users\ana.jimenez\Desktop\App-NetCore\
+build_property.ProjectDir = C:\Users\ana.jimenez\Desktop\App-NetCore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ana.jimenez\Desktop\App-NetCore
+build_property.MSBuildProjectDirectory = C:\Users\ana.jimenez\Desktop\App-NetCore
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Error.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Index.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Privacy.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/_ViewImports.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/_ViewStart.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Shared/_Layout.cshtml]
+[C:/Users/ana.jimenez/Desktop/App-NetCore/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b4qm3snc1p
