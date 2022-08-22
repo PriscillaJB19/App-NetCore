@@ -1,5 +1,5 @@
 
-ARG VERSION=mcr.microsoft.com/dotnet/aspnet:0.6
+ARG VERSION=mcr.microsoft.com/dotnet/aspnet:6.0
 FROM $VERSION AS base
 WORKDIR /app
 
