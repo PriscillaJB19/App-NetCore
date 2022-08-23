@@ -1,0 +1,14 @@
+#Restore packages with the .NET Core CLI task
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet restore'
+  inputs:
+    command: 'restore'
+    feedsToUse: 'select'
+    feedRestore: 'projectName/feedName'
+    projects: '**/*.csproj'
+    includeNuGetOrg: true
+    # Build project
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
