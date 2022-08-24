@@ -17,10 +17,10 @@ COPY ["app-netcore.csproj", "./"]
 RUN dotnet restore "app-netcore.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "app-netcore.csproj" -c Debut -o /app/build
+RUN dotnet build "app-netcore.csproj" -c Debug -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "app-netcore.csproj" -c Debut -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "app-netcore.csproj" -c Debug -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
