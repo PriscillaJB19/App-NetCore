@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ana.jimenez\\desktop\\app-netcore\\app-netcore.csproj",
+      "projectUniqueName": "c:\\Users\\ana.jimenez\\Desktop\\Practicas\\App-NetCore\\app-netcore.csproj",
       "projectName": "app-netcore",
-      "projectPath": "C:\\Users\\ana.jimenez\\desktop\\app-netcore\\app-netcore.csproj",
+      "projectPath": "c:\\Users\\ana.jimenez\\Desktop\\Practicas\\App-NetCore\\app-netcore.csproj",
       "packagesPath": "C:\\Users\\ana.jimenez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ana.jimenez\\desktop\\app-netcore\\obj\\",
+      "outputPath": "c:\\Users\\ana.jimenez\\Desktop\\Practicas\\App-NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ana.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
