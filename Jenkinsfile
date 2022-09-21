@@ -12,13 +12,5 @@ pipeline{
                 }
             }
         }
-
-    stage('docker push'){
-        steps{
-            script{
-                dockerLib.push(DockerImage:"priscillajb/appnnetcore-${BUILD_ID}")
-            }
-            }
-        }
     }
 }
