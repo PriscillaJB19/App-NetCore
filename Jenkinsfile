@@ -6,10 +6,9 @@ pipeline{
         stage('docker build'){
             steps{
                 script{
-                    sh'
                     dockerLib.build(DockerfilePath:"app-netCore/dockerfile",
                     DockerImage:"priscillajb/appnetcore-${BUILD_ID}",
-                    DockerContext:"app-netcore")'
+                    DockerContext:"app-netcore")
                 }
             }
         }
@@ -17,8 +16,7 @@ pipeline{
     stage('docker push'){
         steps{
             script{
-                  sh'
-                dockerLib.push(DockerImage:"priscillajb/appnetcore-${BUILD_ID}")'
+                dockerLib.push(DockerImage:"priscillajb/appnetcore-${BUILD_ID}")
             }
             }
         }
