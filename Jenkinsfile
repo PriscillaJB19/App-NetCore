@@ -9,11 +9,6 @@ pipeline {
     
     stages{
 
-		stage('Install'){
-            steps{
-				Dependencies()
-            }
-    }
 
     	stage('Build'){
             steps{
