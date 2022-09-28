@@ -12,7 +12,7 @@ pipeline {
 
     	stage('Build'){
             steps{
-                Build(registry:REGISTRY,buildNumber:"${BUILD_NUMBER}")
+                Build(project_root:PROJECT_ROOT,registry:REGISTRY,buildNumber:"${BUILD_NUMBER}")
             }
     }
 }
