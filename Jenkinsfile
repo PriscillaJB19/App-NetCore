@@ -2,10 +2,6 @@
 pipeline {
     agent any
     
-    tools{
-        dotnet 'dotnet'
-    }
-    
     environment {
         PROJECT_ROOT = 'app-netcore.csproj'
         REGISTRY = 'priscillajb/appnetcore'
